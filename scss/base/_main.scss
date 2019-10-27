@@ -242,6 +242,13 @@ body {
         }
     }
 }
+@media screen and (min-width: 1330px) {
+    .image__wrapper::before {
+        left: 38rem;
+        width: 54.9%;
+        height: 100%;
+    }
+}
 @media screen and (min-width: 1440px) {
     .image__wrapper::before {
         left: 46.2rem;
