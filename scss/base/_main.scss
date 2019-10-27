@@ -227,6 +227,19 @@ body {
             padding: 1rem 1.5rem 0 4.5rem;
             border: none;
             margin: 0;
+            position: relative;
+        }
+        &__item:last-child .navigation__link::before {
+            content: '';
+            height: 5px;
+            width: 5px;
+            background-color: $grayishblue;
+            border-radius: 50%;
+            display: inline-block;
+            left: 18px;
+            bottom: 24px;
+            position: absolute;
+            opacity: 0.5;
         }
     }
 }
